@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --cor-primaira: #8f8f8f;
+    --cor-secundaria: #fda7dc;
+    ---cor-terciaria: #ffffff;
+    --cor-hover: #979797;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--cor-primaira);
+    color:var(---cor-terciaria);
+}
+.cabecalho{
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho-menu-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.content {
+    padding: 1% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bold {
+    color: var(--cor-secundaria);
+}
+
+.title {
+    font-size: 20px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.subtitulo{
+    font-size: 16px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.paragraph {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    gap: 20px;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.botao-subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: var(---cor-terciaria);
+    text-decoration: none;
+    width: 300px;
+    text-align: center;
+    border: 3px solid var(--cor-secundaria);
+    border-radius: 8px;
+    padding: 16px 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.button:hover {
+background-color: var(--cor-hover);
+}
+
+.logo-insta{
+    width: 20px;
+    height: 20px;
+}
+
+.logo-github{
+    width: 20px;
+    height: 20px;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.rodape{
+    background-color: var(--cor-secundaria);
+    color: var(---cor-terciaria);
+    padding: 12px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
